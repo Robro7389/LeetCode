@@ -1,8 +1,10 @@
+package Arrays;
+
 import java.util.Arrays;
 
 //1854. Maximum Population Year.
 
-public class Question_1854 {
+public class Maximum_Population_Year {
     public int maximumPopulation(int[][] logs) {
         int firstYear = logs[0][0];
         int lastYear = logs[logs.length-1][1];
